@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 int main(int argc, char const *argv[]) {
-   ifstream infile ("PA02SampleFile.txt");
+   ifstream infile (argv[1]);
    string num;
    int countNum = 0;
    for (int i = 0; i < 10; i++) {
